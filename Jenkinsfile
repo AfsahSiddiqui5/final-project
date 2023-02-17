@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("build") {
             steps {
-                sh "echo Jenkinsfile is working"
+                sh "python AfsahSiddiqui.py"
             }
         }
     }
