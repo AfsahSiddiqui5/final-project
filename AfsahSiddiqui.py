@@ -1,1 +1,7 @@
-print("I am working hehe")
+def simpleFunction():
+    x=1
+    while(x != 5):
+        print("*"*x)
+        x+=1
+
+simpleFunction()
