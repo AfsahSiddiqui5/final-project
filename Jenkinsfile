@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage("build") {
+        stage("Afsah Siddiqui - build docker image") {
             steps {
                 sh "docker --version"
             }
